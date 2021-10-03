@@ -6,7 +6,8 @@ public class playerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float moveSpeed;
- 
+
+
     // Update is called once per frame
     void Update()
     {
