@@ -4,3 +4,6 @@ ProjectSettings
 Logs
 Packages
 Library
+.vsconfig
+Assembly-CSharp.csproj
+Space Simulator.sln
