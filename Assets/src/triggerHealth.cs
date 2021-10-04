@@ -8,7 +8,7 @@ public class triggerHealth : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (option)
+        if (option && collision.tag != "Arrow")
             option.SetActive(true);
 
         // Va para el Controll Room
@@ -20,7 +20,7 @@ public class triggerHealth : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (option)
+        if (option && collision.tag != "Arrow")
             option.SetActive(false);
     }
 
