@@ -5,6 +5,7 @@ using UnityEngine;
 public class triggerHealth : MonoBehaviour
 {
     public GameObject option;
+    public GameObject vending;
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -14,7 +15,7 @@ public class triggerHealth : MonoBehaviour
         // Va para el Controll Room
         if (Input.GetKeyDown(KeyCode.R))
         {
-            // Make something
+            vending.SetActive(true);
         }
     }
 
